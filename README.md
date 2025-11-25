@@ -37,7 +37,7 @@ This project is dual-licensed to accommodate both hardware and software freedoms
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-All code located in the `firmware/` directory is licensed under a [GNU General Public License v3.0 (GPL-3.0).](LICENSE-GPL).
+All code located in the `firmware/` directory is licensed under a [GNU General Public License v3.0 (GPL-3.0)](LICENSE-GPL).
 
 ### 🛠️ Hardware (Schematics, PCB, 3D Models)
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
