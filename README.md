@@ -10,7 +10,7 @@ This project is currently under active development.
 - [ ] **Control Unit:** PCB Layout
 - [ ] **Control Unit:** Firmware
 - [ ] **Control Unit:** 3D Printable Enclosure Design
-- [ ] **Base Station:** Hardware Schematics
+- [X] **Base Station:** Hardware Schematics
 - [ ] **Base Station:** PCB Layout
 - [ ] **Base Station:** 3D Printable Enclosure Design
 
