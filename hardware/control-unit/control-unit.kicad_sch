@@ -286,6 +286,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Conn"
+				(at 0 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Magnetic Connector"
 				(at 0 10.414 0)
 				(effects
 					(font
@@ -293,15 +301,7 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom_Footprints:Connector_Magnetic_4_Pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1968,16 +1968,16 @@
 		(uuid "a954e563-0cf0-4e88-ab14-68fba552832c")
 	)
 	(junction
+		(at 186.69 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abe4de5f-f500-4384-83ed-1a83391b9c61")
+	)
+	(junction
 		(at 99.06 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb6180bb-774b-4b12-b96c-2ed5aab67ca3")
-	)
-	(junction
-		(at 186.69 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfcd16c1-1341-4dc9-847d-d7818154bca0")
 	)
 	(junction
 		(at 201.93 63.5)
@@ -2433,16 +2433,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 66.04) (xy 175.2329 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bab8150-1476-4257-99e6-0293b5580a02")
-	)
-	(wire
-		(pts
 			(xy 196.85 74.93) (xy 196.85 76.2)
 		)
 		(stroke
@@ -2470,6 +2460,16 @@
 			(type default)
 		)
 		(uuid "86e1d3de-b40f-411e-a9b9-40057a904931")
+	)
+	(wire
+		(pts
+			(xy 167.64 66.04) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9087cf2a-063b-4280-ac48-8f0519c041b9")
 	)
 	(wire
 		(pts
@@ -2763,6 +2763,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 66.04) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bb662b-80aa-4af5-8c11-2d83be2a20f3")
+	)
+	(wire
+		(pts
 			(xy 36.83 58.42) (xy 55.88 58.42)
 		)
 		(stroke
@@ -2780,16 +2790,6 @@
 			(type default)
 		)
 		(uuid "e450a597-a6d1-4e27-8f37-9ebe1a0ee0d4")
-	)
-	(wire
-		(pts
-			(xy 182.8529 66.04) (xy 186.69 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e73bfc5e-f613-4678-a9c9-b40f262ab7b5")
 	)
 	(wire
 		(pts
@@ -4065,7 +4065,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 179.0429 66.04 270)
+		(at 179.07 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4073,7 +4073,7 @@
 		(dnp no)
 		(uuid "68102314-0ddf-4b47-b96e-018b12996978")
 		(property "Reference" "R8"
-			(at 179.07 68.834 90)
+			(at 179.0971 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4081,7 @@
 			)
 		)
 		(property "Value" "?"
-			(at 179.07 71.374 90)
+			(at 179.0971 71.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4089,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 178.7889 67.056 90)
+			(at 178.816 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.0429 66.04 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4107,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 179.0429 66.04 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
